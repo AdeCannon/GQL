@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.GraphQL.API", "FOA.GraphQL.API\FOA.GraphQL.API.csproj", "{B8F29496-E784-4BF1-84A6-CABBF9085103}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B2288847-F481-42C6-9159-D285126AE7EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.GraphQL.API.UnitTests", "FOA.GraphQL.API.UnitTests\FOA.GraphQL.API.UnitTests.csproj", "{846202C1-99C8-45C4-A46B-912456F6F7A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.GraphQL.Repositories", "FOA.GraphQL.Repositories\FOA.GraphQL.Repositories.csproj", "{8D991378-A064-4FDE-A440-D12AF31FF295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOA.Thinkfolio.ControlReports.Domain", "..\..\FOA.Thinkfolio.Rpt.API\Main\Source\FOA.Thinkfolio.ControlReports.Domain\FOA.Thinkfolio.ControlReports.Domain.csproj", "{0D960166-1322-4A30-89BD-830778EF7A3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOA.Entity.Domain", "..\..\FOA.Entity.API\Main\FOA.Entity.Domain\FOA.Entity.Domain.csproj", "{ADE00553-4AF5-42F7-91F4-03376387DB6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Int|Any CPU = Int|Any CPU
+		Live|Any CPU = Live|Any CPU
+		Prod|Any CPU = Prod|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Int|Any CPU.ActiveCfg = Int|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Int|Any CPU.Build.0 = Int|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Live|Any CPU.ActiveCfg = Test|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Live|Any CPU.Build.0 = Test|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{B8F29496-E784-4BF1-84A6-CABBF9085103}.Test|Any CPU.Build.0 = Test|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Int|Any CPU.ActiveCfg = Int|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Int|Any CPU.Build.0 = Int|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Live|Any CPU.ActiveCfg = Test|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Live|Any CPU.Build.0 = Test|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Prod|Any CPU.Build.0 = Prod|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{846202C1-99C8-45C4-A46B-912456F6F7A5}.Test|Any CPU.Build.0 = Test|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Int|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Int|Any CPU.Build.0 = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Live|Any CPU.ActiveCfg = Release|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Live|Any CPU.Build.0 = Release|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Prod|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Prod|Any CPU.Build.0 = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Test|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D991378-A064-4FDE-A440-D12AF31FF295}.Test|Any CPU.Build.0 = Debug|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Int|Any CPU.ActiveCfg = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Int|Any CPU.Build.0 = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Live|Any CPU.ActiveCfg = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Live|Any CPU.Build.0 = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Prod|Any CPU.Build.0 = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{0D960166-1322-4A30-89BD-830778EF7A3D}.Test|Any CPU.Build.0 = Release|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Debug|Any CPU.ActiveCfg = Dev|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Debug|Any CPU.Build.0 = Dev|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Int|Any CPU.ActiveCfg = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Int|Any CPU.Build.0 = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Live|Any CPU.ActiveCfg = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Live|Any CPU.Build.0 = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Prod|Any CPU.ActiveCfg = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Prod|Any CPU.Build.0 = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Release|Any CPU.ActiveCfg = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Release|Any CPU.Build.0 = Live|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{ADE00553-4AF5-42F7-91F4-03376387DB6A}.Test|Any CPU.Build.0 = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{846202C1-99C8-45C4-A46B-912456F6F7A5} = {B2288847-F481-42C6-9159-D285126AE7EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3409FD88-5502-4599-8127-CE26B9907176}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.gam.com:8080/tfs/gam_default_collection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FOA.GraphQL.API\\FOA.GraphQL.API.csproj
+		SccProjectName1 = FOA.GraphQL.API
+		SccLocalPath1 = FOA.GraphQL.API
+		SccProjectUniqueName2 = FOA.GraphQL.API.UnitTests\\FOA.GraphQL.API.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName2 = FOA.GraphQL.API.sln
+		SccProjectName2 = FOA.GraphQL.API.UnitTests
+		SccLocalPath2 = FOA.GraphQL.API.UnitTests
+		SccProjectUniqueName3 = FOA.GraphQL.Repositories\\FOA.GraphQL.Repositories.csproj
+		SccProjectName3 = FOA.GraphQL.Repositories
+		SccLocalPath3 = FOA.GraphQL.Repositories
+		SccProjectUniqueName4 = ..\\..\\FOA.Thinkfolio.Rpt.API\\Main\\Source\\FOA.Thinkfolio.ControlReports.Domain\\FOA.Thinkfolio.ControlReports.Domain.csproj
+		SccProjectName4 = ../../FOA.Thinkfolio.Rpt.API/Main/Source/FOA.Thinkfolio.ControlReports.Domain
+		SccLocalPath4 = ..\\..\\FOA.Thinkfolio.Rpt.API\\Main\\Source\\FOA.Thinkfolio.ControlReports.Domain
+		SccProjectUniqueName5 = ..\\..\\FOA.Entity.API\\Main\\FOA.Entity.Domain\\FOA.Entity.Domain.csproj
+		SccProjectName5 = ../../FOA.Entity.API/Main/FOA.Entity.Domain
+		SccLocalPath5 = ..\\..\\FOA.Entity.API\\Main\\FOA.Entity.Domain
+	EndGlobalSection
+EndGlobal

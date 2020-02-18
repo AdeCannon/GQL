@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FOA.GraphQL.API</name>
+    </assembly>
+    <members>
+        <member name="T:FOA.GraphQL.API.Controllers.MonitoringController">
+            <summary>
+            Monitoring controller for this service
+            </summary>
+        </member>
+        <member name="M:FOA.GraphQL.API.Controllers.MonitoringController.#ctor(Microsoft.Extensions.Logging.ILogger{FOA.GraphQL.API.Controllers.MonitoringController},FOA.WebApi.Extensions.Identity.IUserIdentity)">
+            <summary>
+            CTOR
+            </summary>
+            <param name="userIdentity">The user's identity</param>
+            <param name="logger">The logger to use</param>
+        </member>
+        <member name="T:FOA.GraphQL.API.Controllers.SupportController">
+            <summary>
+            Support controller for this micro service
+            </summary>
+        </member>
+        <member name="M:FOA.GraphQL.API.Controllers.SupportController.#ctor(Microsoft.Extensions.Logging.ILogger{FOA.GraphQL.API.Controllers.SupportController},Microsoft.AspNetCore.Hosting.IApplicationLifetime)">
+            <summary>
+            CTOR
+            </summary>
+            <param name="logger">The logger to use</param>
+            <param name="applicationLifetime">Application lifetime</param>
+        </member>
+        <member name="T:FOA.GraphQL.API.Program">
+            <summary>
+            The Main Entry Point
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:FOA.GraphQL.API.Program.Main(System.String[])">
+            <summary>
+            The Main Entry Point
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:FOA.GraphQL.API.Startup">
+            <summary>
+            Set up the web api
+            </summary>
+        </member>
+        <member name="M:FOA.GraphQL.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            The Start up CTOR
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:FOA.GraphQL.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:FOA.GraphQL.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
