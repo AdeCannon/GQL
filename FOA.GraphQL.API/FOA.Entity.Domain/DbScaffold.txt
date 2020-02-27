@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Server=LDNEC1AD\ESA2012;Database=GTPS;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -outputDir Repositories -Schemas FOFC
